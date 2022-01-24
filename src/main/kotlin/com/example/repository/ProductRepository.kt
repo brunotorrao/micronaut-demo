@@ -20,6 +20,6 @@ class ProductRepository (
         return collection.find().asFlow().toList()
     }
     
-    private val collection = mongoClient.getDatabase("demo")
+    private val collection = mongoClient.getDatabase("product")
             .getCollection("products", Product::class.java)
 }

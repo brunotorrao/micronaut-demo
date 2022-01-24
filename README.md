@@ -1,3 +1,14 @@
+## Running the project
+
+- using java 17
+
+- Run mongo:
+`$docker-compose up -d`
+- 
+Run project using gradle
+`$./gradlew run`
+
+
 ## Micronaut 3.2.7 Documentation
 
 - [User Guide](https://docs.micronaut.io/3.2.7/guide/index.html)
