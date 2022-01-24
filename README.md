@@ -5,7 +5,7 @@
 - Run mongo:
 `$docker-compose up -d`
 - 
-Run project using gradle
+-Run project using gradle
 `$./gradlew run`
 
 
